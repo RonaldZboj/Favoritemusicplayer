@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Favorite music player</string>
+
+
+    <string name="favorite">FAVORITE!</string>
+
+    <string name="radio">Radio search</string>
+
+    <string name="music">Music search on device</string>
+
+    <string name="about">About</string>
+
+    <string name="now_playing">NOW PLAYING</string>
+
+    <string name="back">Back</string>
+
+    //Favorites Activity
+
+    <string name="favorite_content">A list of your favorite songs or favorite radio stations.</string>
+
+    //Radio search Activity Activity
+
+    <string name="radio_search_content">A list of internet radio stations, with search capabilities.</string>
+
+    //Music search Activity Activity
+
+    <string name="music_on_device_content">A list of music, which is on your device. Name, Band, Length, image if possible.</string>
+
+    //About Activity
+
+    <string name="about_content">An application to play your favorite media.</string>
+
+    //NowPlaying Activity
+
+    <string name="now_playing_content">Currently playing track, album info, artist. An idea for NowPlaying to be
+        in any activity, instead of separate activity in the form of the player (options previous, next).</string>
+
+</resources>
