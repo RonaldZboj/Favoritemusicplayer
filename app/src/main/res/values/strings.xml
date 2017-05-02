@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">Favorite music player</string>
 
-
     <string name="favorite">FAVORITE!</string>
 
     <string name="radio">Radio search</string>
@@ -14,25 +13,33 @@
 
     <string name="back">Back</string>
 
-    //Favorites Activity
+    <!-- Favorites Activity -->
 
-    <string name="favorite_content">A list of your favorite songs or favorite radio stations.</string>
+    <string name="favorite_content">A list of your favorite songs or favorite radio stations. Use class ArrayAdapter
+        for list your favorite radio stations and favorite songs \"liked\" from other Activities</string>
 
-    //Radio search Activity Activity
+    <!-- Radio search Activity Activity -->
 
-    <string name="radio_search_content">A list of internet radio stations, with search capabilities.</string>
+    <string name="radio_search_content">A list of internet radio stations, with search capabilities. ArrayAdapter for list
+        internet stations. Maybe streamfinder.com API (free to 1,000 call limit) to
+        access the radio station database. Maybe SHOUTcast Api is better for his, information on the manufacturer\'s
+        website that is 100% Free</string>
 
-    //Music search Activity Activity
+    <!-- Music search Activity Activity -->
 
-    <string name="music_on_device_content">A list of music, which is on your device. Name, Band, Length, image if possible.</string>
+    <string name="music_on_device_content">A list of music, which is on your device. Name, Band, Length, image if possible.
+        Use MediaPlayer Api - Another feature that may be useful in a media player application is the ability to retrieve
+        music that the user has on the device. You can do that by querying the ContentResolver for external media. </string>
 
-    //About Activity
+    <!-- About Activity -->
 
-    <string name="about_content">An application to play your favorite media.</string>
+    <string name="about_content">Application description with email to support and www page. Use Intent class with email and wwww to start
+        right suitable application to handle it.</string>
 
-    //NowPlaying Activity
+    <!-- NowPlaying Activity -->
 
     <string name="now_playing_content">Currently playing track, album info, artist. An idea for NowPlaying to be
-        in any activity, instead of separate activity in the form of the player (options previous, next).</string>
+        in any activity, instead of separate activity in the form of the player (options previous, next). Use MediaPlayer api
+        to play audio.</string>
 
 </resources>
